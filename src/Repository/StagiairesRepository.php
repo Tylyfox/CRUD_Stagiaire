@@ -48,7 +48,7 @@ class StagiairesRepository extends ServiceEntityRepository
     // /**
     //  * @return Stagiaires[] Returns an array of Stagiaires objects
     //  */
-    /*
+    
     public function findByExampleField($value)
     {
         return $this->createQueryBuilder('s')
@@ -60,9 +60,9 @@ class StagiairesRepository extends ServiceEntityRepository
             ->getResult()
         ;
     }
-    */
+ 
 
-    /*
+  
     public function findOneBySomeField($value): ?Stagiaires
     {
         return $this->createQueryBuilder('s')
@@ -72,5 +72,5 @@ class StagiairesRepository extends ServiceEntityRepository
             ->getOneOrNullResult()
         ;
     }
-    */
+    
 }
